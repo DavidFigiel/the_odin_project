@@ -24,18 +24,31 @@ nav {
 	display: inline-block;
 	width: 100%;
     height: 50px;
-    position: ;
+    word-spacing: 1em;
+}
+
+nav ul {
+	float: right;
+	margin-right: 25px;
 }
 
 nav ul li{
 	display: inline;
+	position: right;
+}
+
+#appslogo {
+	height: 24px;
+	width: 20px;
+	vertical-align: middle;
 }
 
 #signinbutton {
 	height: 30px;
-	width: 60px;
+	width: 65px;
 	background-color: #2E8AE6;
-	margin-left: 50px;
+	color: white;
+	font-weight: bold;
 }
 
 #searchbutton {
@@ -54,6 +67,7 @@ section form input {
 
 section form button {
 	height: 29px;
+	font-weight: bold;
 }
 
 footer {
