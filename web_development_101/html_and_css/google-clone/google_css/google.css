@@ -4,6 +4,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	font-size: 14px;
 }
 
 a {
@@ -19,71 +20,50 @@ a:hover {
 }
 
 
-nav {
-}
-
-nav ul{
-	word-spacing: 5px;
-	font-size: .9em;
-	border: solid 1px black;
-	padding-left: 85%;
+nav {	
+	display: inline-block;
+	width: 100%;
+    height: 50px;
+    position: ;
 }
 
 nav ul li{
 	display: inline;
 }
 
-nav ul li .top-links {
-	border: solid 1px black;
-
+#signinbutton {
+	height: 30px;
+	width: 60px;
+	background-color: #2E8AE6;
+	margin-left: 50px;
 }
 
-.appslogo {
-	display: inline-block;
-	border: solid 1px black;
-	margin: 0px;
-	padding-top: 5px;
-
-}
-1
-.Sign-in-button {
-	display: inline-block;
+#searchbutton {
+	margin-right: 15px;
 }
 
-#logo {
+section {
 	text-align: center;
-	border: solid 1px black;
-
+	padding-top: 200px;
 }
 
-#search {
-	text-align: center;
-	border: 1px black solid;
-	width: 40%;
+section form input {
+	width: 600px;
+	height: 23px;
 }
 
-#search {
-	padding-top:10px;
-
-}
-
-#buttons_1 {
-	word-spacing: 1em;
-	padding-bottom: 20px;
-
-}
-
-#button_2 {
-	word-spacing: 1em;
-	padding-bottom: 20px;
+section form button {
+	height: 29px;
 }
 
 footer {
 	display: inline-block;
 	width: 100%;
 	background-color: #f2f2f2;
-    margin: 400px 0px 0px 0px;
-	}
+    height: 40px;
+    bottom: 0px;
+    position: fixed;
+}
 
 footer ul li {
 	display: inline;
@@ -92,8 +72,8 @@ footer ul li {
 #b_l_l {
 	display: inline-block;
 	word-spacing: 2em;
-	background-color: #f2f2f2;
 	float:left;
+	color: gray;
 }
 
 #b_r_l {
@@ -101,4 +81,12 @@ footer ul li {
 	word-spacing: 2em;
 	padding-right: 30px;
 	float:right;
+}
+
+#b_l_l ul li a {
+	color: #656;
+}
+
+#b_r_l ul li a, #b_r_l ul li {
+	color: #656;
 }
