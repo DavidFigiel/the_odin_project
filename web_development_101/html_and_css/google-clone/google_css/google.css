@@ -1,61 +1,9 @@
 body {
 	font-family: small arial ;
-}
-
-
-
-#navbartop {
-	list-style-type: none;
-	padding: 0px 0px 10px 1250px;
-	word-spacing: 5px;
-	font-size: .9em;
-}
-
-#logo {
-	text-align: center;
-	position: auto;
-	margin: 150px 0px 270px 0px;
-
-}
-
-#search {
-	text-align: center;
-	border: 1px black solid;
-	width:40%;
-
-}
-
-#footer {
-	border-top: gray 1px solid;
-	display: inline-block;
+	height: 100%;
 	width: 100%;
-	background-color: #f2f2f2;
-}
-
-#bottomlinks {
-	list-style-type: none;
-	font-size: .9em;
-
-}
-
-.b_link {
-}
-
-li {
-	display:inline;
-}
-
-#b_l_l {
-	display: inline;
-	word-spacing: 2em;
-	background-color: #f2f2f2;
-}
-
-#b_r_l {
-	display: inline;
-	float: right;
-	word-spacing: 2em;
-	padding-right: 30px;
+	margin: 0px;
+	padding: 0px;
 }
 
 a {
@@ -70,12 +18,87 @@ a:hover {
 	text-decoration:underline;
 }
 
-#search {
-	padding-top:10px;
+
+nav {
 }
 
-#buttons {
+nav ul{
+	word-spacing: 5px;
+	font-size: .9em;
+	border: solid 1px black;
+	padding-left: 85%;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li .top-links {
+	border: solid 1px black;
+
+}
+
+.appslogo {
+	display: inline-block;
+	border: solid 1px black;
+	margin: 0px;
+	padding-top: 5px;
+
+}
+1
+.Sign-in-button {
+	display: inline-block;
+}
+
+#logo {
+	text-align: center;
+	border: solid 1px black;
+
+}
+
+#search {
+	text-align: center;
+	border: 1px black solid;
+	width: 40%;
+}
+
+#search {
+	padding-top:10px;
+
+}
+
+#buttons_1 {
+	word-spacing: 1em;
+	padding-bottom: 20px;
+
+}
+
+#button_2 {
 	word-spacing: 1em;
 	padding-bottom: 20px;
 }
 
+footer {
+	display: inline-block;
+	width: 100%;
+	background-color: #f2f2f2;
+    margin: 400px 0px 0px 0px;
+	}
+
+footer ul li {
+	display: inline;
+}
+
+#b_l_l {
+	display: inline-block;
+	word-spacing: 2em;
+	background-color: #f2f2f2;
+	float:left;
+}
+
+#b_r_l {
+	display: inline-block;
+	word-spacing: 2em;
+	padding-right: 30px;
+	float:right;
+}
