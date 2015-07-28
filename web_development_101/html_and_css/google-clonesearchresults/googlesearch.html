@@ -8,11 +8,11 @@
  
  <body>
   <header>
-   <img src="images/smalllogo.jpg">
-   <input type="text" img src="images/voiceicon.jpg">
-   <button><img src"images/searchicon.png"></button> 
-   <img src="images/appsicon.png">
-   <button>Sign in</button>
+   <img id="smalllogo" src="images/smalllogo.jpg">
+   <input id="searchbar"type="text" img src="images/voiceicon.jpg"> 
+   <button id="searchbutton"></button>
+   <img id="appsicon" src="images/appsicon.png">
+   <button id="signin">Sign in</button>
   </header>
 
   <nav> <!-- navbar before header shown inline and no list-style-type -->
@@ -24,21 +24,21 @@
     <li>Images</li>
     <li>More</li>
     <li>Search tools</li>
+    <li><button id="settings"></button></li>
    </ul>
-   <button><img src="images/settingsicon.png"></button>
   </nav>
 
   <section> <!-- Main section with search results links <h1> shows titles of pages <h2> shows https <p>shows infor about site-->
     <p>About 1,670,000,000 results (0.21 seconds)</p>
    <article>
     <h1>Learn to code in 12 Weeks - AppAcademy.io</h1>
-    <h2><img src="images/adicon.jpg">www.appacademy.io/Coding-Bootcamp</h2>
+    <h2><img class="addicon" src="images/adicon.jpg">www.appacademy.io/Coding-Bootcamp</h2>
     <p>Graduates Make an Average of $105k. No Tuition Costs Until You're Hired</p>
    </article>
 
    <article>
     <h1>Get paid to learn coding - We need applicants</h1>
-    <h2><img src="images/adicon.jpg">www.launchcode.org/</h2>
+    <h2><img class="addicon" src="images/adicon.jpg">www.launchcode.org/</h2>
     <p>Apply today; proven, free, and easy</p>
     <ul>
      <li>Start Your Career in Tech -</li>
@@ -120,7 +120,7 @@
   </section>
 
  <aside> <!-- Ads sidebar/aside -->
-  <img src="images/adicon.jpg">
+  <img id="adsicon" src="images/adicon.jpg">
   <article>
    <h1>Code the world you want</h1>
    <h2>www.madewithcode.com/</h2>

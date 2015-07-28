@@ -1,0 +1,130 @@
+/* This is css reset code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* begin header */
+header {
+	height: 60px;
+	border-bottom: 1px black solid;
+	background-color: #f1f1f1;
+}
+#smalllogo {
+	height:35px;
+	width: 90px;
+	margin: 15px 0px 0px 20px;
+}
+#searchbar {
+	background-image: url(images/voiceicon.jpg);
+	background-position: right;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 20px;
+	
+
+    
+}
+#searchbutton {
+	background-image: url(images/searchicon.png);
+	background-size: 25px 25px;
+	height:30px;
+	width: 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #4387fd;
+}
+#signin {
+	background-color: #4387fd;
+	height: 30px;
+	width: 70px;
+	font-weight: bold;
+	color: white;
+	float: right;
+	margin: 15px 30px 0px 0px;
+}
+#appsicon {
+	height: 25px;
+	width: 25px;
+}
+/* end header */
+
+nav {
+	border-bottom: 1px solid black;
+	height: 60px;
+}
+nav ul {
+	margin-left: 125px;
+	padding-top: 20px;
+    
+}
+nav ul li {
+	display: inline;
+	padding-right: 18px;
+}
+#settings {
+	background-color: #f1f1f1;
+	height: 30px;
+	width: 70px;
+	float: right;
+	margin: 0px 30px 15px 0px;
+}
+.addicon {
+	height: 15px;
+	width: 25px;
+}
+article {
+	margin: 10px 0 10px 110px;
+
+}
+h1 {
+	color: blue;
+	font-size: 20px;
+}
+h2 {
+	color: green;
+}
+section {
+	width: 35%;
+}
+section li {
+	list-style-type: none;
+	display: inline;
+}
+#adsicon {
+	height: 15px;
+	width: 30px;
+}
+
+footer {
+	border: 1px solid black;
+	bottom: 0px;
+	height: 90px;
+}
+
+footer li {
+	display: inline;
+	margin: 20px 5px 0px 100px;
+}
+footer p {
+	margin-left: 120px;
+}
+footer
